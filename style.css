@@ -1,0 +1,37 @@
+body {
+    background-color: #f5f5dc; /* オフホワイトの背景色 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex; /* Flexboxを使って中央に配置 */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 画面全体の高さを確保 */
+}
+
+.container {
+    text-align: center; /* ボタンとテキストを中央揃え */
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 色の変化を滑らかにする */
+}
+
+.btn.green {
+    background-color: #4CAF50; /* 緑色 */
+}
+
+.btn.blue {
+    background-color: #2196F3; /* 青色 */
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
